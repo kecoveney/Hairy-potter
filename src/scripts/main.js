@@ -2,6 +2,7 @@
 import { makePottery } from "./PotteryWheel.js"
 import { firePottery } from "./Kiln.js"
 import { toSellOrNotToSell, usePottery } from "./PotteryCatalog.js";
+import { potteryList } from "./PotteryList.js";
 
 
 // Make 5 pieces of pottery at the wheel
@@ -45,3 +46,5 @@ console.log(firedPottery5);
 // Get the array of items to be sold
 const itemsForSale = usePottery();
 console.log(itemsForSale);
+
+potteryList()
